@@ -1,4 +1,10 @@
-namespace App {
+import {Component} from "./base-component";
+import {AutoBind} from "../decorators/autobind";
+import {projectState} from "../state/project-state";
+import {Project, ProjectStatus} from "../models/project";
+import {DragTarget} from "../models/drag-drop";
+import {ProjectItem} from "../components/project-item";
+
 
     //project list class
 
@@ -69,5 +75,3 @@ namespace App {
             }
         }
     }
-
-}

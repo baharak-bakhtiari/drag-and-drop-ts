@@ -1,5 +1,5 @@
-namespace App {
-
+import {Project, ProjectStatus} from "../models/project";
+    
     //listener class
 
     type Listener<T> = (items: T[]) => void;
@@ -56,5 +56,4 @@ namespace App {
     }
 
     export const projectState = ProjectState.getInstance();
-}
 

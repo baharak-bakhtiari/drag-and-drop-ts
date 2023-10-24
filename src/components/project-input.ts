@@ -1,4 +1,9 @@
-namespace App {
+import {Component} from "./base-component";
+import {validate} from "../util/validation";
+import {AutoBind} from "../decorators/autobind";
+import {projectState} from "../state/project-state";
+
+    
     //project input class
     export class ProjectInput extends Component<HTMLDivElement, HTMLInputElement> {
         titleInputElement: HTMLInputElement;
@@ -52,4 +57,3 @@ namespace App {
         renderContent() {
         }
     }
-}

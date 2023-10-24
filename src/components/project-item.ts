@@ -1,4 +1,7 @@
-namespace App {
+import {Component} from "./base-component";
+import {Project} from "../models/project";
+import {AutoBind} from "../decorators/autobind";
+import {Draggable} from "../models/drag-drop";
 
     //project item class
 
@@ -42,4 +45,3 @@ namespace App {
 
         }
     }
-}

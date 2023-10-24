@@ -1,4 +1,3 @@
-namespace App {
     //auto binder decorator
     export function AutoBind(
         _target: any,
@@ -14,4 +13,3 @@ namespace App {
         };
         return adjustedDescriptor;
     }
-}
